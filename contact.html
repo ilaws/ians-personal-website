@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ian's Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+            <div class="header">
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="likes.html">My Favz</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact me!</a></li>
+                </ul>
+                <div class="center">
+                <h1>Contact me!</h1>
+                <p class="date" id="date"></p>
+            </div>
+                <div class="center">
+                    <div class="yellow-box">
+                        <h2>Feel free to contact me!</h2>
+                        <h2>E-Mail: 4ianlawson@gmail.com</h2>
+                        
+                    </div>
+                <br><br>
+                                    <img src="media/y2kgif.gif">
+                                    <br>
+                                    <img src="media/g4.gif">
+                </div>
+    </div>
+    <script>
+        const today = new Date();
+        const currentMonthAndDay = today.toLocaleDateString('en-US', {
+            month: 'long',
+            day: 'numeric'
+        });
+        document.getElementById('date').textContent = `Today's date: ${currentMonthAndDay}, 1999`;
+    </script>
+</body>
+</html>

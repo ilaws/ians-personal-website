@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ian's Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+            <div class="header">
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="likes.html">My Favz</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact me!</a></li>
+                </ul>
+                <div class="center">
+                <h1>Welcome to my personal website!</h1>
+                <p class="date" id="date"></p>
+            </div>
+                <div class="center">
+                    <div class="yellow-box">
+                        <h2>Hi everyone! My name is Ian Lawson. I am 16 years old (M, he/him) and live near Charlotte, North Carolina. I currently attend both High School and College. I am in the STEM club at my high school, where I have been working on multiple projects. Some of these projects include webapps, AI agents, hardware projects, and phone apps. Below are some of my biggest accomplishments!</h2>
+                        <ul>
+                            <li><h2>I started college at 13 years old.</h2></li>
+                            <li><h2>A couple of my friends and I competed in Ready, set, app!, which is a program by the North Carolina State Business Committee on Education. We ended up getting finalist positions!</h2></li>
+                            <li><h2>I have my Ham Radio License.</h2></li>
+                            <li><h2>I went to Dayton Hamvention in 2026.</h2></li>
+                            <li><h2>I enjoy app and web development.</h2></li>
+                        </ul>
+                        <h1>An Interview with Ian Lawson</h1>
+                        <p class="rsa-text"><b>Q: What is your favorite programming language?</b></p>
+                        <p class="rsa-text">A: I don't really have a favorite. I really enjoy working with PHP and HTML/CSS.</p>
+                        <p class="rsa-text"><b>Q: What is your favorite project you have worked on?</b></p>
+                        <p class="rsa-text">A: I really enjoyed working on Socialite, a social coordination application (planning hangouts with friends, etc.), which I developed with my friends Nathan, Statham, and Gwen. I've also really enjoyed my current project, which is an AI-powered learning program for high school students. It uses AI to provide feedback on their work. It doesn't do their work for them, but it does provide feedback on their work and helps them learn.</p>
+                        <p class="rsa-text"><b>Q: What is your favorite thing to do?</b></p>
+                        <p class="rsa-text">A: I really enjoy spending time with my friends, as well as my boyfriend.</p>
+                        <p class="rsa-text"><b>Q: What do you want to do when you grow up?</b></p>
+                        <p class="rsa-text">A: When I grow up, I want to be a congressman in the U.S. House of Representatives.</p>
+                        <h3>Thank you for reading! Feel free to look around</h3>
+                </div>
+                <br><br>
+                                    <img src="media/y2kgif.gif">
+                                    <br>
+                                    <img src="media/g4.gif">
+
+    </div>
+    <script>
+        const today = new Date();
+        const currentMonthAndDay = today.toLocaleDateString('en-US', {
+            month: 'long',
+            day: 'numeric'
+        });
+        document.getElementById('date').textContent = `Today's date: ${currentMonthAndDay}, 1999`;
+    </script>
+</body>
+</html>
