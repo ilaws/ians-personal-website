@@ -6,7 +6,7 @@ NOTE - The images may take a while to load.
 - Next, I compiled all of these elements for a basic layout on every page, and then chose a color scheme. I wanted a bold color scheme that reminded me of something you would see in the 90's.
 
 Here is an example: 
-![image](readme.jpg)
+![image](readmeexample.jpg)
 
 - Finally, I filled in all of my personal information and stuff I wanted to put in the website. It's done!
 - This website is hosted on one of my projects for school. I am using a VPS through cloudflare. The domain was only $0.98, and the VPS is around 12 dollars a month. Not bad!
