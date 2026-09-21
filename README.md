@@ -8,6 +8,7 @@ NOTE - The images may take a while to load.
 Here is an example: 
 ![image](readmeexample.jpg)
 
+- All of the images that I put together are ones that I took in the past 5-or so years around North America. Anyone can use them if you would like under CC0! 
 - Finally, I filled in all of my personal information and stuff I wanted to put in the website. It's done!
 - This website is hosted on one of my projects for school. I am using a VPS through cloudflare. The domain was only $0.98, and the VPS is around 12 dollars a month. Not bad!
 
